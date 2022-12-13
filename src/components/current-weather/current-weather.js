@@ -31,7 +31,7 @@ const CurrenWeather = ({data}) => {
                     </div>
                     <div className='parameter-row'>
                         <span className='parameter-label'>Pressure</span>
-                        <span className='parameter-value'>{Math.round(data.main.pressure)}hPa</span>
+                        <span className='parameter-value'>{Math.round(data.main.pressure)}Hg</span>
                     </div>
                 </div>
             </div>
